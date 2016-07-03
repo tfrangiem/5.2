@@ -1,0 +1,35 @@
+/*Exercise 5.2*/
+
+
+/*# to call container, all properties is going to be inherited by the childs*/
+
+#container {
+	display:flex;
+	flex-flow:row wrap;
+			}
+/*Define which class are you calling to change, use . to assign an specific style to a group of items,*/
+
+	.firstTwo {
+		flex: 2 1 100px;
+		background: green;
+		border:3px dashed #66CD00;
+		font-weight:bold;
+		color:red;
+		font-size:large;
+		text-align:center;
+		padding:20px 20px 20px 20px; 
+		margin: 5px;
+            }
+			
+/*Define which to change, use . to assign an specific style to a group of items,*/  
+
+	.lastTwo {
+		flex: 2 1 100px;
+		background: red;
+		border:3px dashed #8C001A;
+		font-weight:bold;
+		color:green;
+		font-size:large;
+		text-align:center;
+		padding:20px 20px 20px 20px; 		margin: 5px; 
+			}
